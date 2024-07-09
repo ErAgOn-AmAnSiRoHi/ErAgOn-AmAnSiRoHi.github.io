@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Sirohi - Student @ Amrita Vishwa Vidyapeetham</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <div id="star-animation"></div>
+            <div class="container hero-content">
+                <img src="Aman.jpeg" alt="Aman Sirohi" id="profile-pic">
+                <h1>Aman Sirohi</h1>
+                <p>Student @ Amrita Vishwa Vidyapeetham</p>
+                <a href="#projects" class="btn" id="view-projects-btn">View Projects</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 id="about-heading">About Me</h2>
+            <p>Hey there! I'm Aman Sirohi, currently on an exciting journey exploring the world of Artificial
+                Intelligence as I pursue my B.Tech. in AI Engineering at Amrita Vishwa Vidyapeetham, Coimbatore. While
+                I'm still building up my professional experience, my curiosity knows no bounds when it comes to the
+                potential of AI.
+
+                I'm particularly fascinated by how deep learning can be used for creative tasks like art generation,
+                seamless real-time translation, and applications in computer vision and biotechnology. Right now, I'm
+                eager to learn all I can and collaborate on projects that push the boundaries of what AI can achieve.
+
+                When I'm not neck-deep in code or research papers, you can find me getting lost in music or playing
+                games.</p>
+        </section>
+
+        <br><br>
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div id="projects-container"></div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <h3 id="form-title">Send me a message</h3>
+                        <form action="mailto:amansinghsirohi@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-field">
+                                <input name="name" type="text" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="form-field">
+                                <input name="email" type="email" id="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-field">
+                                <input name="Subject" type="text" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-field">
+                                <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                            </div>
+                            <input id="form-btn" type="submit" value="Send">
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>Email Me At</h3>
+                        <a href="mailto:amansinghsirohi@gmail.com">amansinghsirohi@gmail.com</a>
+                        <br>
+                        <br>
+                        <h3>Find Me On</h3>
+                        <div class="contact-links">
+                            <a href="https://www.linkedin.com/in/amansinghsirohi/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/ErAgOn-AmAnSiRoHi"><i class="fab fa-github"></i></a>
+                            <a href="https://codolio.com/profile/ZczVa4jU"><i
+                                    class="fa-solid fa-star-half-stroke"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aman Sirohi. All rights reserved.</p>
+    </footer>
+
+    <div class="github-profile-badge-container">
+        <div class="github-profile-badge" data-user="ErAgOn-AmAnSiRoHi"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
